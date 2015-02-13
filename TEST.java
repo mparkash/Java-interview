@@ -28,7 +28,7 @@ public class TEST {
     			userGuess = scannerInput.next();
     			if(null != userGuess) {
     				if(userGuess.trim().equalsIgnoreCase("Yes")){
-    					System.out.println("Gussed Numder is :"+ guess+" .Bye......... ");
+    					System.out.println("Gussed Numder is :"+ guess+" .Bye........... ");
     					gameStarted = false;
     					break;
     				}else if(null != userGuess && userGuess.trim().equalsIgnoreCase("lower")){
